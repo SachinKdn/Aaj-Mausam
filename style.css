@@ -60,7 +60,7 @@ html,body {
     text-align: center;
 }
 .header h2{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .header i{
@@ -69,8 +69,10 @@ html,body {
     font-size: 6rem;
 }
 
-.header h2, h4{
-
+.header h4{
+    margin-top: -15px;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
 
 .footer{
