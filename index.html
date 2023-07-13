@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aaj Mausoom</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4937728e8c.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <div class="main">
+        <div class="mybody">
+            <div class="search">
+                <input type="text" class="getCity" id="inputCity" spellcheck="false" placeholder="enter city name">
+                <button type="button" class="searchImg" id="searchBox"> <img src="searchBar.png" alt="..."></button>
+                <!-- <input class="searchImg" type="button" value="searchBtn"> -->
+            </div>
+            <p id="errormsg" style="font-size: 10px; color: #a70000; margin-top: -60px; margin-left: -190px; display: none;" >*Enter Valid City Name</p>
+            <div class="header">
+                <img id="weatherImage" src="clear.png" alt="" style="width: 190px;  margin-top: -40px;">
+                <!-- <i class="fa-regular fa-sun" style="color: #ffc800;"></i> -->
+                <!-- <i class="fa-regular fa-sun-bright" style="color: #ffc800;"></i> -->
+                <h2 id="temp2">22 °C</h2>
+                <h4 id="cityName">Hissar (Old Data)</h4>
+            </div>
+            <div class="footer">
+                <div class="humidity">
+                    <div class="humi-img">
+                        <img src="humidity.png" alt="" style="width: 50px;  ">
+                        <!-- <img src="humidity.png" alt="" style="color: #ff8800; width: 50px;> -->
+                    </div>
+                    <div class="humi-data">
+                        <h4 id="humidityper">53%</h4>
+                        <h5>humidity</h5>
+                    </div>
+                    
+                </div>
+                <div class="wind">
+                    <div class="wind-img">
+                        <img src="wind.png" alt="" style="width: 50px;  ">
+                        </div>
+                    <div class="wind-data">
+                        <h4 id="windSpeed">5 km/h</h4>
+                        <h5>wind speed</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.js"
+    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

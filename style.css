@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+html,body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.search{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.mybody{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(rgb(165, 241, 255) ,rgb(255, 229, 194) ,rgb(109, 235, 235));
+    border: 2px;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.getCity{
+    padding-left: 15px;
+    outline: none;
+    border: 0px;
+    width: 75%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 25px 0px rgb(161, 161, 161);
+    /* flex:  1; */
+}
+.searchImg{
+    width: 40px; /* Adjust the container width as needed */
+  height: 40px; /* Adjust the container height as needed */
+  border:  0;
+  border-radius: 50%;
+  outline: none;
+  padding: 5px;
+  cursor: pointer;
+  background: white;
+  box-shadow: 1px 1px 10px 1px rgb(124, 124, 124);
+
+}
+.searchImg img{
+    /* height: 1; */
+    width: 16px;
+}
+
+.header{
+    text-align: center;
+}
+.header h2{
+    font-size: 2rem;
+}
+
+.header i{
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 6rem;
+}
+
+.header h2, h4{
+
+}
+
+.footer{
+     display: flex;
+
+     justify-content: space-around;
+  /* align-items: center; */
+}
+
+.humidity i{
+    font-size: 2rem;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.humidity{
+    display: flex;
+    padding-right: 25px;
+}
+
+.humi-img{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+
+}
+
+.wind{
+    display: flex;
+    padding-left: 25px;
+}
+
+.wind-img{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+
+}
+.wind i{
+    font-size: 2rem;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.footer h4{
+    font-size: 1.3rem;
+}
